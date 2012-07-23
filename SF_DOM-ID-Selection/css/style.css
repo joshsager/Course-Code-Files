@@ -1,0 +1,7 @@
+html{background:#403da0 -webkit-linear-gradient(#403da0 40%, #9cd7f2 100%); height: 100%; background-attachment: fixed; }
+body{width: 600px; margin: 0 auto; background: white; padding: 10px 25px;}
+ol{width:300px; margin: 0 auto; list-style: none;}
+li{background: gray; width:300px; height: 20px; margin: 5px 0; padding: 5px 10px; text-align: center; color: white; font-family: sans-serif;
+	border-radius: 10px;}
+li:hover,a:hover{color:orange; cursor: pointer;}
+	
