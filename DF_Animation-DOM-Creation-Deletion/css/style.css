@@ -1,0 +1,16 @@
+/* CSS Document */
+
+section{width:100px; height:100px; background:red; position:absolute;
+			top:50px; left:100px;
+			
+			-webkit-transition-property:left,opacity,background;
+			-webkit-transition-duration: 1s,.5s,1s;
+			-webkit-transition-timing-function:ease-in-out,ease-in,linear;
+			-webkit-transition-delay:0,1s,1.5s;
+			}
+			
+.animation{
+	left:300px;
+	opacity:.5;
+	background:yellow;	
+}
