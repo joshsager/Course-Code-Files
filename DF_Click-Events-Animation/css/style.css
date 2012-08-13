@@ -1,0 +1,11 @@
+/* CSS Document */
+
+li a:hover{cursor:pointer; color:#f00; background:#Ff0;}
+.clicked{color:#0CF; font-size:100px;}
+
+li {
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
