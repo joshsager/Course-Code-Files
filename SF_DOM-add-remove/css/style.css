@@ -1,0 +1,7 @@
+body{width:650px; margin: 20px auto; font-family: Helvetica, Arial, sans-serif}
+nav ol {list-style: none; margin: 0; padding: 0; font-size: 12px}
+nav ol li {background: #08e; padding: 5px; border-radius: 5px; margin: 5px;}
+nav a, nav li{color: white;}
+nav a:hover, nav li:hover a, nav li:hover{color: yellow; cursor: pointer;}
+ol{width: 300px; float: left; font-size: 24px;}
+section{clear: both; border: solid thin black; padding: 0 20px; margin: 0;}
