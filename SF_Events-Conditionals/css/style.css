@@ -1,0 +1,31 @@
+
+/* U N I V E R S A L  S T Y L E S */
+
+a{text-decoration: none;}
+.buttons{height: 200px; width: 200px; border-radius: 60px; 
+		background: #7ceb8b; border:5px #fcff19 solid; 
+		margin: 3em 1em; display: block; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 2em; float: left;
+		font-family:sans-serif; text-align: center; font-size: 2em; color: white;text-transform: uppercase; 
+		}
+.arrow{background: url(../img/arrow.png) center center no-repeat; width: 55px; height: 100px; display: block; 
+	   border: black solid 3px; border-radius: 8px; position: absolute;}
+footer{position: fixed; bottom: 20px;}
+h1{text-align: center; margin-top: 1em; font: bold; font-size: 4em;}
+
+/* S T A R T  P A G E */
+#start,#random{height: 200px; width: 200px; border-radius: 60px; background: #7ceb8b; border:5px #fcff19 solid; 
+margin: 3em auto; display: block; font-family:sans-serif; text-align: center; font-size: 2em; color: white;
+text-transform: uppercase; -moz-box-sizing: border-box; box-sizing: border-box; padding-top: 2em; }
+
+#start:hover{color:#fcff19; cursor: pointer;}
+
+/* P A G E  1 */
+.page1 body, .page2 body, .page3 body{width:800px; margin: 0 auto;}
+
+/* P A G E  2 */
+#arrows{top:300px; left:700px; position: absolute;}
+#hero{width:50px; height: 50px; background:#7ceb8b;}
+#up{}
+#right{-webkit-transform: rotate(90deg);-moz-transform: rotate(90deg);transform: rotate(90deg);top:55px; left:90px;}
+#down{-webkit-transform: rotate(180deg);-moz-transform: rotate(180deg);transform: rotate(180deg);top:120px;}
+#left{-webkit-transform: rotate(-90deg);-moz-transform: rotate(-90deg);transform: rotate(-90deg);left:-90px; top:55px;}
