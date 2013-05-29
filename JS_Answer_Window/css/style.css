@@ -1,0 +1,8 @@
+nav{background: red; padding: .5em}
+nav ul{width:90%; margin: 0 auto;  padding: 0; }
+nav ul li{display: inline-block; width:11.45%; text-align: center; box-sizing:border-box; padding: .5em}
+a:hover{color:white; cursor: pointer;}
+a{-webkit-user-select:none; color:#900;}
+.window{width:90%; margin: 0 auto; border: thin solid black;}
+.answer{padding: 1em;}
+h2{text-align: center; background: black; color:#CCC; font-weight: normal; padding: .5em; margin: 0;}
